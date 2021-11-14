@@ -28,6 +28,9 @@ dependencies {
     // Lombok
     compileOnly 'org.projectlombok:lombok:1.18.16'
     annotationProcessor 'org.projectlombok:lombok:1.18.16'
+
+    // Mustache
+    implementation('org.springframework.boot:spring-boot-starter-mustache')
 }
 
 test {
